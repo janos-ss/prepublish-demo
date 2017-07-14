@@ -1,7 +1,7 @@
 {
   "name": "janos-ss-prepublish-demo",
   "main": "./lib/my-package",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {

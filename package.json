@@ -1,5 +1,5 @@
 {
-  "name": "janos-ss-my-package",
+  "name": "janos-ss-prepublish-demo",
   "main": "./lib/my-package",
   "version": "0.1.13",
   "description": "A short description of your package",
@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
-  "repository": "https://github.com/janos-ss/atom-dummy",
+  "repository": "https://github.com/janos-ss/prepublish-demo",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -21,12 +21,5 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "request": "^2.81.0"
-  },
-  "configSchema": {
-    "testFilePattern": {
-      "type": "string",
-      "default": "test",
-      "order": 1
-    }
   }
 }

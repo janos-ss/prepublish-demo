@@ -1,14 +1,13 @@
 {
-  "name": "janos-ss-my-package",
+  "name": "janos-ss-prepublish-demo",
   "main": "./lib/my-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
-  "repository": "https://github.com/atom/my-package",
+  "repository": "https://github.com/janos-ss/prepublish-demo",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -16,13 +15,11 @@
   "scripts": {
     "prepublish": "node ./scripts/setup.js"
   },
+  "files": [
+    "files"
+  ],
   "dependencies": {
-  },
-  "configSchema": {
-    "testFilePattern": {
-      "type": "string",
-      "default": "test",
-      "order": 1
-    }
+    "mkdirp": "^0.5.1",
+    "request": "^2.81.0"
   }
 }
